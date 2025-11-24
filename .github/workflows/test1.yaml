@@ -35,7 +35,6 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       pull-requests: write
-      issues: write
     steps:
       - name: Comment Success
         uses: actions/github-script@v6
